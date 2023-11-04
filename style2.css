@@ -1,0 +1,39 @@
+body {
+      background-color: rgb(209, 196, 196);
+      text-align: center;
+}
+
+h2 {
+    background-color: rgb(219, 223, 223);
+    font-size: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px red;
+}    
+
+figcaption {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+            text-align: center;
+            font-size: 25px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+figure {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1em;
+        border-radius: 5px;
+}
+
+figure:hover {
+             background-color: lightgrey;
+}
+
+figure:hover > figcaption {
+                 color: red;
+}
